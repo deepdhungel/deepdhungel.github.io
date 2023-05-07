@@ -3,7 +3,10 @@
 <html>
   <head>
     <title>Curriculum Vitae</title>
-    <style>
+	<link href="
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css
+" rel="stylesheet">
+	<style>
      /* Add some styling for the CV */
       body {
         font-family: Futura PT;
@@ -11,12 +14,19 @@
         padding: 0;
       }
       .header {
-        background-color: hsl(150, 60%, 95%); /* Faded Minty Color */
+        background-color: hsl(210.46deg 53.64% 42.54%); /* Dark blue Color */
         padding: 15px;
         text-align: center;
       }
       .header h1 {
         margin: 0;
+      }
+      .left-col {
+        float: left;
+        width: 100%;
+		text-align:center;
+        padding: 15px;
+        background-color: hsl(210.46deg 74.62% 90.69%); /* Faded blue Color */
       }
       .right-col {
         float: right;
@@ -41,31 +51,39 @@
         width: 100%;
         height: auto;
       }
-	    h1 {
-    color: #0078D4; /* Microsoft blue color */
+	    h1#name {
+    color: #FFFFFF; /* Microsoft blue color */
 }
+a{
+color: black;
+}
+	.category-name {
+	 color: hsl(210.46deg 69.96% 39.38%);
+	}
 	   
     </style>
   </head>
   <body>
+  
+ 
     <div class="header">
-      <h1>Deep Kiran Dhungel</h1>
+      <h1 id="name">Deep Kiran Dhungel</h1>
     </div>
     <div class="left-col">
-      <p><strong>Telephone:</strong> +49  15 73 32 81 22 0 </p>
-      <p><strong>Github:</strong> <a href="https://github.com/deepdhungel">https://github.com/deepdhungel</a></p>
-      <p><strong>Email:</strong> deep.dhungel1@gmail.com</p>
-      <p><strong>Acclaim:</strong> <a href="https://www.youracclaim.com/users/deepdhungel">https://www.youracclaim.com/users/deepdhungel</a></p>
+      <span> <i class="bi bi-telephone-fill"></i> +49  15 73 32 81 22 0 </span> &nbsp;&nbsp; &nbsp;&nbsp;
+      <span><i class="bi bi-github"></i> <a href="https://github.com/deepdhungel">https://github.com/deepdhungel</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span> <i class="bi bi-envelope-fill"></i> deep.dhungel1@gmail.com</span>&nbsp;&nbsp;&nbsp;&nbsp;
+      <span><i class="bi bi-award-fill"></i> <a href="https://www.youracclaim.com/users/deepdhungel">https://www.youracclaim.com/users/deepdhungel</a></span>
     </div>
   <div class="photo" style="width:250px">
       <img src="prfpic.png" alt="Profile Picture">
   </div>
  <div class="right-col">
-      <h1 align="left">Key Skills and Competencies</h1>
+      <h1 align="left" class="category-name">Key Skills and Competencies</h1>
       <ul style="list-style-position: inside;">
-        <li>Extensive knowledge in database design</li>
-        <li>ETL design, implementation and maintenance in production</li>
-		  <li align="left"> Extensive knowledge in database design, ETL design, implementation and maintenance in production.
+        <li>Extensive knowledge in database design.</li>
+        <li>ETL design, implementation and maintenance in production.</li>
+		<li align="left"> Extensive knowledge in database design, ETL design, implementation and maintenance in production.
 </li> 
 <li align="left"> Expertise in RDBMS such as PostgreSQL, MSSQL and MySQL.</li> 
 <li align="left"> Familiarity of ETL tools such as Talend, Azure Data Factory and Apache Airflow.
@@ -81,10 +99,10 @@
 <li align="left"> Extensive knowledge in Unit-testing and Software Engineering best practices.</li> 
       </ul>
 		<br>
-<h1 align="left">Work Experience</h1>
+<h1 align="left" class="category-name">Professional Experience</h1>
 <h2 align="left">Senior Data Exchange Manager Data Engineering</h2>
 <h2 align="left">GVL - Gesellschaft zur Verwertung von Leistungsschutzrechten mbH </h2>
-<p1 align="left">(May 2021 – Today)</p1>
+<p1 align="left">(May 2021 – Present)</p1>
 <br><br>
 <ul style="list-style-position: inside;">	 
 <li align="left"> Successfully manage multiple projects for the Digital Data Exchange (DDEX RDR 1.4) standard ETL pipelines, ensuring technical communication and partnership with B2B clients such as Universal Music Group, Sony Music Entertainment, Warner Music Group, and Absolute Music Group.</li>
@@ -121,7 +139,6 @@ PostgreSQL, MongoDB, Mongocharts, Swagger UI, Talend Openstudio, Tableau, Grafan
 Azure Data Factory, Power BI, Active Directory, Redgate Flyway, Azure Repos, Git, MySQL, AWS S3</li2>
 </ul>
 	<br>
-     <br>
 
 <h2 align="left">Data Engineer</h2>
 <h2 align="left">YAS.life</h2>
@@ -164,7 +181,6 @@ PostgreSQL, Python, Apache Airflow, R / R Openstudio, Tableau, AWS EC2, AWS RDS,
 Talend Openstudio, Tableau, MySQL, SAP BW, Zendesk, Automated Batchprocesses</li2>
 </ul>
 		<br>
-		<br>
 <h2 align="left">Database Developer </h2>
 <h2 align="left">Charité, Berlin</h2>
 <p1 align="left">(March 2017 - July 2017)</p1>
@@ -182,48 +198,52 @@ Talend Openstudio, Tableau, MySQL, SAP BW, Zendesk, Automated Batchprocesses</li
 		<li2 align="left"> Environment: Python, MySQL, PostgreSQL</li2>
 </ul>
 <br>
-<br>
-<h1 align="left">Academic Qualifications</h1>
+<h1 align="left" class="category-name">Academic Qualifications</h1>
 <h2 align="left">Bioinformatics, Freie Universität Berlin</h2>
 <p2 align="left">Thesis: Analysis of the Repurposing of Previously Withdrawn Drugs.</p2><br>
 <p1 align="left">(Graduation Year 2017)</p1>
 <br>
-<br>
-<h1 align="left">Training and Certifications</h1>
+<h1 align="left" class="category-name">Training and Certifications</h1>
 <h2 align="left">Oracle Autonomous Database Cloud 2019 Certified Specialist</h2>
 <p2 align="left">Institution: Oracle</p2><br>
 <p1 align="left">Issued On: April 2020</p1><br>
+<p1 align="left">Valid Till: April 2021</p1><br>
 <p1 align="left">Certification ID: 274384621OADB19-F</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.credly.com/badges/475a047f-f9bf-42ab-b2eb-2d756e6153ed">https://www.credly.com/badges/475a047f-f9bf-42ab-b2eb-2d756e6153ed</a></p1>
 <br>
 <h2 align="left">Oracle Cloud Infrastructure 2019 Certified Architect Associate</h2>
 <p2 align="left">Institution: Oracle</p2><br>
 <p1 align="left">Issued On: April 2020</p1><br>
+<p1 align="left">Valid Till: April 2021</p1><br>
 <p1 align="left">Certification ID: 274540788OCSIAAS2019-F</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.credly.com/badges/b270d17c-6ecc-4127-b021-9146166b05ca">https://www.credly.com/badges/b270d17c-6ecc-4127-b021-9146166b05ca</a></p1>
 <br>
 <h2 align="left">Oracle Cloud Infrastructure Foundations 2020 Associate</h2>
 <p2 align="left">Institution: Oracle</p2><br>
 <p1 align="left">Issued On: April 2020</p1><br>
+<p1 align="left">Valid Till: April 2021</p1><br>
 <p1 align="left">Certification ID: 274384621OCIBF2020-F</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.credly.com/badges/3874642c-1119-46df-ae3a-423220ed3ff0">https://www.credly.com/badges/3874642c-1119-46df-ae3a-423220ed3ff0</a></p1>
 <br>
 <h2 align="left">AWS Certified Developer - Associate</h2>
 <p2 align="left">Institution: Amazon Web Services (AWS)</p2><br>
 <p1 align="left">Issued On: April 2020</p1><br>
+<p1 align="left">Valid Till: April 2023</p1><br>
 <p1 align="left">Certification ID: E2SJSFL2M1BQQ5K3</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.credly.com/badges/2097f13a-fae7-421f-863e-7cccce4e4cc5">https://www.credly.com/badges/2097f13a-fae7-421f-863e-7cccce4e4cc5</a></p1>
 <br>
 <h2 align="left">AWS Certified Cloud Practitioner</h2>
 <p2 align="left">Institution: Amazon Web Services (AWS)</p2><br>
 <p1 align="left">Issued On: March 2020</p1><br>
+<p1 align="left">Valid Till: March 2023</p1><br>
 <p1 align="left">Certification ID: HQB0FCNKGM1Q11CP</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.credly.com/badges/bce3b395-93b8-4628-8c02-0962100fa9a4">https://www.credly.com/badges/2097f13a-fae7-421f-863e-7cccce4e4cc5</a></p1>
 <br>
 <h2 align="left">Machine Learning</h2>
 <p2 align="left">Institution: Stanford Online</p2><br>
 <p1 align="left">Issued On: February 2020</p1><br>
+<p1 align="left">Valid Till: Non-Expiry</p1><br>
 <p1 align="left">Certification ID: NUJCKJ9AG9LB</p1><br>
 <p1 align="left">Validation Link:<a href="https://www.coursera.org/account/accomplishments/verify/NUJCKJ9AG9LB">https://www.coursera.org/account/accomplishments/verify/NUJCKJ9AG9LB</a></p1>
 </ul>
-    
+</body>
